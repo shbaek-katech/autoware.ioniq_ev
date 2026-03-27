@@ -91,9 +91,9 @@ repositories:
     url: https://github.com/autowarefoundation/managed_transform_buffer.git
     version: 0.2.0
   # launcher
-  launcher/autoware_launch:
+  launcher/autoware_launch.ioniq_ev:
     type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
+    url: https://github.com/shbaek-katech/autoware_launch.ioniq_ev.git
     version: 0.50.0
   # sensor_component
   sensor_component/external/sensor_component_description:
@@ -127,3 +127,26 @@ repositories:
     type: git
     url: https://github.com/tier4/agnocast.git
     version: 2.3.1
+
+
+# ioniq ev sensor setting
+
+sensor_kit/ioniq_ev_sensor_kit_launch:
+    type: git
+    url: https://github.com/shbaek-katech/ioniq_ev_sensor_kit_launch.git
+    version: main
+
+vehicle/ioniq_ev_launch:
+    type: git
+    url: https://github.com/shbaek-katech/ioniq_ev_launch.git
+    version: main
+
+param/ioniq_ev_individual_params:
+    type: git
+    url: https://github.com/shbaek-katech/ioniq_ev_individual_params.git
+    version: main
+
+launcher/autoware_launch.ioniq_ev:
+    type: git
+    url: https://github.com/shbaek-katech/autoware_launch.ioniq_ev.git
+    version: main        

@@ -128,25 +128,27 @@ repositories:
     url: https://github.com/tier4/agnocast.git
     version: 2.3.1
 
-
-# ioniq ev sensor setting
-
-sensor_kit/ioniq_ev_sensor_kit_launch:
+  sensor_kit/ioniq_ev_sensor_kit_launch:
     type: git
     url: https://github.com/shbaek-katech/ioniq_ev_sensor_kit_launch.git
     version: main
 
-vehicle/ioniq_ev_launch:
+  vehicle/ioniq_ev_launch:
     type: git
     url: https://github.com/shbaek-katech/ioniq_ev_launch.git
     version: main
 
-param/ioniq_ev_individual_params:
+  param/ioniq_ev_individual_params:
     type: git
     url: https://github.com/shbaek-katech/ioniq_ev_individual_params.git
     version: main
 
-launcher/autoware_launch.ioniq_ev:
+  launcher/autoware_launch.ioniq_ev:
     type: git
     url: https://github.com/shbaek-katech/autoware_launch.ioniq_ev.git
     version: main        
+    
+
+  
+
+
